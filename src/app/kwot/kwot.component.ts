@@ -7,6 +7,8 @@ import { kwotz } from '../kwotz';
   styleUrls: ['./kwot.component.css']
 })
 export class KwotComponent implements OnInit {
+  ngOnInit() {
+
 
   quotes: kwotz [] = [
     {id:1, name:'Be the CHANGE that you wish to see in the world- Mahtma Ghandi'},
@@ -15,11 +17,5 @@ export class KwotComponent implements OnInit {
     {id:4, name:'Believe you can and you are halfway there-Theodore Roosevelt'},
     {id:5, name:'No pressure, No diamonds- Thomas Carlyle'},
 
-  ];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+  ]
+  };
